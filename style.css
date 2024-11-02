@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(188, 188, 248);
+}
+form{
+    background-color: rgb(236, 239, 239);
+    width: 500px;
+    height: 450px;
+    border: 1px;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 10px 50px 200px black;
+}
+h1{
+    text-align: center;
+    font-weight: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: rgb(14, 15, 15);
+}
+input{
+    width: 320px;
+    height: 30px;
+    display: block;
+    padding: 10px;
+    padding-left: 25px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family:fantasy;
+    border: 1px;
+    border-color: beige;
+    border-radius: 0.2;
+    background-color: rgb(227, 212, 245);
+}
+input:focus{
+     outline:2px;
+     outline-color: rgb(227,212,245);
+     outline-style: solid;
+     box-shadow: 2px 2px 2px 2px rgb(227, 212, 245);
+}
+p{ 
+    display: block;
+    color: rgb(10, 10, 10);
+    margin-left: 250px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    display: block;
+    width: 400px;
+    height: 45px;
+    border: 10px;
+    margin-left: 55px;
+    font-size:medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-bottom: 45px;
+}
+button.hover{
+    cursor:crosshair;
+}
+a{
+   text-decoration: none; 
+   
+}
+
+
